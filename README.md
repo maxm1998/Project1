@@ -1,17 +1,20 @@
 # Project1
 
-Part 1 Introduction and Data
+# Part 1 Introduction and Data
 
+Looking at covid, financial and health data to find out how Covid-19 has impacted the world and to find any correlations between different variables.
+
+Data sources:
 Google Finance: google sheets for stock, index, fx data
 John Hopkins: Covid Data
-Kaggle: Commodity prices
 IMF: GDP data
+Kaggle: Commodity prices
 
-Data Wrangling:
-Pycountry api: check dataframes and validate country names
-Cleaning dates
-Concatenating data into groups, fx sectors and indices, and splicing dates
-Using fatlity rate to narrow the covid data
+What we did with the data:
+Concatenating and grouping data into groups, such as fx sectors, indices, countries and dealing with a lot of date data types, using Pandas functions such as groupby...
+Used Pycountry (API with list of country names and data) to check our dataframes and validate country names
+Covid data from different countries can be unreliable (for example Laos only has 40 cases)  so a way to filter out outliers is to only look at countries within a certain range 
+of some variable such as fatality_rate
 
 
 <br>
